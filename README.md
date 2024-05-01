@@ -18,17 +18,12 @@ Installation
 
 2.  **Create a Virtual Environment (Optional)**: It's recommended to use a virtual environment to manage dependencies. Open a terminal or command prompt and navigate to your project directory. Then run the following commands:
 
-    bash
-
-    Copy code
-
-    `# Install virtualenv if you haven't already pip install virtualenv # Create a virtual environment virtualenv venv # Activate the virtual environment # On Windowsvenv\Scripts\activate # On macOS/Linux source venv/bin/activate`
+    - Install virtualenv if you haven't already pip install virtualenv
+    - Create a virtual environment virtualenv venv 
+    - Activate the virtual environment # On Windowsvenv\Scripts\activate
+    - On macOS/Linux source venv/bin/activate`
 
 3.  **Install Required Packages**: Once you have activated your virtual environment (if you chose to create one), you can install the required packages:
-
-    bash
-
-    Copy code
 
     `pip install selenium beautifulsoup4`
 
